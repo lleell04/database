@@ -17,7 +17,7 @@ jobs:
     - name: Setup .NET SDK
       uses: actions/setup-dotnet@v4
       with:
-        dotnet-version: '8.0.x' # 根据你的版本改成 7.0.x 或 6.0.x
+        dotnet-version: '8.0.x' # 或 7.0.x / 6.0.x
 
     - name: Restore dependencies
       run: dotnet restore
@@ -26,17 +26,17 @@ jobs:
       run: dotnet build --no-restore --configuration Release
 
     - name: Run tests and collect coverage
-      run: dotnet test BackendCode.Tests/BackendCode.Tests.csproj --configuration Release --collect:"XPlat Code Coverage"
+      run: dotnet test BackendCode.Tests/BackendCode.Tests.csproj --configuration Release --collect:"XPlat Code Coverage" -- DataCollectionRunSettings.DataCollectors.DataCollector.Configuration.Format=cobertura
 
     - name: Generate lcov report
       uses: danielpalme/ReportGenerator-GitHub-Action@5.1.24
       with:
-        reports: '**/coverage.cobertura.xml'
+        reports: '**/TestResults/**/coverage.cobertura.xml'
         targetdir: 'coveragereport'
         reporttypes: 'lcov'
 
     - name: Upload coverage to Codecov
-      uses: codecov/codecov-action@v4
+      uses: codecov/codecov-action@v5
       with:
         token: ${{ secrets.CODECOV_TOKEN }}
         files: coveragereport/lcov.info
