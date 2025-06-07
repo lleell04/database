@@ -1,0 +1,44 @@
+name: .NET Test and Coverage
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Setup .NET SDK
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '8.0.x' # 根据你的版本改成 7.0.x 或 6.0.x
+
+    - name: Restore dependencies
+      run: dotnet restore
+
+    - name: Build solution
+      run: dotnet build --no-restore --configuration Release
+
+    - name: Run tests and collect coverage
+      run: dotnet test MyProject.Tests/MyProject.Tests.csproj --configuration Release --collect:"XPlat Code Coverage"
+
+    - name: Generate lcov report
+      uses: danielpalme/ReportGenerator-GitHub-Action@5.1.24
+      with:
+        reports: '**/coverage.cobertura.xml'
+        targetdir: 'coveragereport'
+        reporttypes: 'lcov'
+
+    - name: Upload coverage to Codecov
+      uses: codecov/codecov-action@v4
+      with:
+        token: ${{ secrets.CODECOV_TOKEN }}
+        files: coveragereport/lcov.info
+        flags: backend
+        name: codecov-umbrella
