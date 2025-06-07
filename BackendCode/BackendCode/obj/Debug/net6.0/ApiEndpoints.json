@@ -1,0 +1,2324 @@
+[
+  {
+    "ContainingType": "Account.Controllers.AccountController",
+    "Method": "AddWalletsToAllAccounts",
+    "RelativePath": "api/Account/add-wallet",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Account.Controllers.AccountController",
+    "Method": "AdministratorPasswordReset",
+    "RelativePath": "api/Account/administrator_password_reset",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BackendCode.DTOs.LoginModel.LoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Account.Controllers.AccountController",
+    "Method": "AdministratorRegister",
+    "RelativePath": "api/Account/administrator_register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BackendCode.DTOs.LoginModel.RegisterModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Account.Controllers.AccountController",
+    "Method": "CheckRegister",
+    "RelativePath": "api/Account/check_register/{email}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Account.Controllers.AccountController",
+    "Method": "FindUserMessage",
+    "RelativePath": "api/Account/get_user_message/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Account.Controllers.AccountController",
+    "Method": "HashPasswords",
+    "RelativePath": "api/Account/hash-passwords",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Account.Controllers.AccountController",
+    "Method": "Login",
+    "RelativePath": "api/Account/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BackendCode.DTOs.LoginModel.LoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Account.Controllers.AccountController",
+    "Method": "Logout",
+    "RelativePath": "api/Account/logout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Account.Controllers.AccountController",
+    "Method": "ModifyAdministratorMessage",
+    "RelativePath": "api/Account/modify_administrator_message",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BackendCode.DTOs.UserInfo.AdministratorMessageModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Account.Controllers.AccountController",
+    "Method": "ModifyBuyerMessage",
+    "RelativePath": "api/Account/modify_buyer_message",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BackendCode.DTOs.UserInfo.BuyerMessageModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Account.Controllers.AccountController",
+    "Method": "ModifySellerMessage",
+    "RelativePath": "api/Account/modify_seller_message",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BackendCode.DTOs.UserInfo.SellerMessageModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Account.Controllers.AccountController",
+    "Method": "PasswordReset",
+    "RelativePath": "api/Account/password_reset",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BackendCode.DTOs.LoginModel.LoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Account.Controllers.AccountController",
+    "Method": "Protected",
+    "RelativePath": "api/Account/protected",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Account.Controllers.AccountController",
+    "Method": "UserRegister",
+    "RelativePath": "api/Account/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BackendCode.DTOs.LoginModel.RegisterModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Account.Controllers.AccountController",
+    "Method": "SendVerificationCode",
+    "RelativePath": "api/Account/send_verification_code/{email}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Administrator.Controllers.AdministratorController",
+    "Method": "AddMarket",
+    "RelativePath": "api/Administrator/AddMarket",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "theme",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "option",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "startTime",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "endTime",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "detail",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "posterImg",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "adminId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Administrator.Controllers.AdministratorController",
+    "Method": "AuditReport",
+    "RelativePath": "api/Administrator/AuditReport",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BackendCode.DTOs.Administrator.ARModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Administrator.Controllers.AdministratorController",
+    "Method": "DeleteMarket",
+    "RelativePath": "api/Administrator/DeleteMarket",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BackendCode.DTOs.Administrator.DMModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Administrator.Controllers.AdministratorController",
+    "Method": "GetAllAuthenticationAsync",
+    "RelativePath": "api/Administrator/GetAllAuthentication",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BackendCode.DTOs.Administrator.GAAModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Administrator.Controllers.AdministratorController",
+    "Method": "GetAllMarket",
+    "RelativePath": "api/Administrator/GetAllMarket",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Administrator.Controllers.AdministratorController",
+    "Method": "GetCommentReport",
+    "RelativePath": "api/Administrator/GetCommentReport",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Administrator.Controllers.AdministratorController",
+    "Method": "GetPostReport",
+    "RelativePath": "api/Administrator/GetPostReport",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Administrator.Controllers.AdministratorController",
+    "Method": "InviteStores",
+    "RelativePath": "api/Administrator/InviteStores",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BackendCode.DTOs.Administrator.ISModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Administrator.Controllers.AdministratorController",
+    "Method": "UpdateStoreAuthentication",
+    "RelativePath": "api/Administrator/UpdateStoreAuthentication",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BackendCode.DTOs.Administrator.USAModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendCode.Controllers.AlipayController",
+    "Method": "PayRequest",
+    "RelativePath": "api/Alipay",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "actualPay",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "returnUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendCode.Controllers.AlipayController",
+    "Method": "RechargeWalletAsync",
+    "RelativePath": "api/Alipay/RechargeWallet",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "BuyerId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Amount",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "returnUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ClassificationController.Controllers.ClassificationController",
+    "Method": "GetAllCategoriesWithSubcategories",
+    "RelativePath": "api/Classification/GetAllCategories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ClassificationController.Controllers.ClassificationController",
+    "Method": "GetBigCategoriesWithSubcategories",
+    "RelativePath": "api/Classification/GetBigCategories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ClassificationController.Controllers.ClassificationController",
+    "Method": "GetCategoryByName",
+    "RelativePath": "api/Classification/GetCategoryByName",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoryName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ClassificationController.Controllers.ClassificationController",
+    "Method": "GetProductsBySubTagId",
+    "RelativePath": "api/Classification/getProductsBySubTagId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "subTagId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ClassificationController.Controllers.ClassificationController",
+    "Method": "GetSubCategoryByName",
+    "RelativePath": "api/Classification/GetSubCategoryByName",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoryName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ClassificationController.Controllers.ClassificationController",
+    "Method": "GetSubCategoriesName",
+    "RelativePath": "api/Classification/GetSubCategoryName",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "subTagId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ClassificationController.Controllers.ClassificationController",
+    "Method": "SetCatrgoryPic",
+    "RelativePath": "api/Classification/SetCategoryPic",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CategoryName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CategoryPhoto",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Favourite.Controllers.FavouriteController",
+    "Method": "BookmarkProductAsync",
+    "RelativePath": "api/Favourite/BookmarkProduct",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "productId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Favourite.Controllers.FavouriteController",
+    "Method": "BookmarkStoreAsync",
+    "RelativePath": "api/Favourite/BookmarkStore",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "storeId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Favourite.Controllers.FavouriteController",
+    "Method": "GetFavoriteProductsAsync",
+    "RelativePath": "api/Favourite/GetFavoriteProducts",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BackendCode.DTOs.Favourite.GFPModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Favourite.Controllers.FavouriteController",
+    "Method": "GetFavoriteStoresAsync",
+    "RelativePath": "api/Favourite/GetFavoriteStores",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BackendCode.DTOs.Favourite.GFPModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Favourite.Controllers.FavouriteController",
+    "Method": "IsProductBookmarkedAsync",
+    "RelativePath": "api/Favourite/IsProductBookmarked",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "productId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Favourite.Controllers.FavouriteController",
+    "Method": "IsStoreBookmarkedAsync",
+    "RelativePath": "api/Favourite/IsStoreBookmarked",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "storeId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Favourite.Controllers.FavouriteController",
+    "Method": "UnbookmarkProductAsync",
+    "RelativePath": "api/Favourite/UnbookmarkProduct",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "productId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Favourite.Controllers.FavouriteController",
+    "Method": "UnbookmarkStoreAsync",
+    "RelativePath": "api/Favourite/UnbookmarkStore",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "storeId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendCode.Controllers.ImagesController",
+    "Method": "GetAccountImage",
+    "RelativePath": "api/Images/account/{accountId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "accountId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendCode.Controllers.ImagesController",
+    "Method": "GetAuthImage",
+    "RelativePath": "api/Images/authentication/{imageId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "imageId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendCode.Controllers.ImagesController",
+    "Method": "GetBuyerInfoImage",
+    "RelativePath": "api/Images/buyerinfo/{imageId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "imageId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendCode.Controllers.ImagesController",
+    "Method": "GetCategoryImage",
+    "RelativePath": "api/Images/category/{categoryName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoryName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendCode.Controllers.ImagesController",
+    "Method": "GetMarketImage",
+    "RelativePath": "api/Images/market/{imageId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "imageId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendCode.Controllers.ImagesController",
+    "Method": "GetPostImage",
+    "RelativePath": "api/Images/post/{imageId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "imageId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendCode.Controllers.ImagesController",
+    "Method": "GetProductImage",
+    "RelativePath": "api/Images/product/{imageId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "imageId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendCode.Controllers.ImagesController",
+    "Method": "GetStoreInfoImage",
+    "RelativePath": "api/Images/storeinfo/{imageId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "imageId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Market.Controllers.MarketController",
+    "Method": "GetProductsByMarketAsync",
+    "RelativePath": "api/Market/GetProductsByMarket",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BackendCode.DTOs.Market.GPBMModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NaviSearchController.Controllers.NaviSearchController",
+    "Method": "Search",
+    "RelativePath": "api/NaviSearch/search",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "keyword",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "type",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendCode.Controllers.PaymentController",
+    "Method": "AddOrdersAsync",
+    "RelativePath": "api/Payment/AddOrders",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "BuyerId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendCode.Controllers.PaymentController",
+    "Method": "AddReturnAsync",
+    "RelativePath": "api/Payment/AddReturn",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ReturnReason",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendCode.Controllers.PaymentController",
+    "Method": "ConfirmOrdersAsync",
+    "RelativePath": "api/Payment/ConfirmOrders",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "order_address",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "actual_pay",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "total_pay",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendCode.Controllers.PaymentController",
+    "Method": "ConfirmOrdersAlipayAsync",
+    "RelativePath": "api/Payment/ConfirmOrdersAlipay",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "order_address",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "actual_pay",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "total_pay",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendCode.Controllers.PaymentController",
+    "Method": "DeleteOrdersAsync",
+    "RelativePath": "api/Payment/DeleteOrders",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendCode.Controllers.PaymentController",
+    "Method": "GetAllOrdersAsync",
+    "RelativePath": "api/Payment/GetAllOrders",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "buyerId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendCode.Controllers.PaymentController",
+    "Method": "GetWalletBalanceAsync",
+    "RelativePath": "api/Payment/GetWalletBalance",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "accountID",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendCode.Controllers.PaymentController",
+    "Method": "HandleReturnAsync",
+    "RelativePath": "api/Payment/HandleReturn",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "returnID",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendCode.Controllers.PaymentController",
+    "Method": "MarkOrderReceivedAsync",
+    "RelativePath": "api/Payment/MarkOrderReceived",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendCode.Controllers.PostController",
+    "Method": "AddCommentToComment",
+    "RelativePath": "api/Post/add_comment_to_comment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "comment",
+        "Type": "BackendCode.DTOs.CommentModel.CommentModel2",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendCode.Controllers.PostController",
+    "Method": "AddCommentToPost",
+    "RelativePath": "api/Post/add_comment_to_post",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "comment",
+        "Type": "BackendCode.DTOs.CommentModel.CommentModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendCode.Controllers.PostController",
+    "Method": "CreatePost",
+    "RelativePath": "api/Post/create_post",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PostTitle",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PostContent",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Images",
+        "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendCode.Controllers.PostController",
+    "Method": "DeletePost",
+    "RelativePath": "api/Post/delete_post",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "postId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendCode.Controllers.PostController",
+    "Method": "GetPostDetail",
+    "RelativePath": "api/Post/get_a_post_detail/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendCode.Controllers.PostController",
+    "Method": "GetPost",
+    "RelativePath": "api/Post/get_a_post/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendCode.Controllers.PostController",
+    "Method": "GetPosts",
+    "RelativePath": "api/Post/get_all_posts",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BackendCode.DTOs.PostModel.GetPostsModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendCode.Controllers.PostController",
+    "Method": "GetMyPost",
+    "RelativePath": "api/Post/get_my_posts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendCode.Controllers.PostController",
+    "Method": "GetPostsByUserId",
+    "RelativePath": "api/Post/get_someone_posts/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendCode.Controllers.PostController",
+    "Method": "GetSubComments",
+    "RelativePath": "api/Post/get_sub_comments/{commentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "commentId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendCode.Controllers.PostController",
+    "Method": "LikePost",
+    "RelativePath": "api/Post/like_post",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "like",
+        "Type": "BackendCode.DTOs.PostModel.LikePostModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendCode.Controllers.PostController",
+    "Method": "MarkCommentAsRead",
+    "RelativePath": "api/Post/mark_comment/{commentId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "commentId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendCode.Controllers.PostController",
+    "Method": "GetAllComments",
+    "RelativePath": "api/Post/my_all_comments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendCode.Controllers.PostController",
+    "Method": "GetMyLikes",
+    "RelativePath": "api/Post/my_liked_posts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendCode.Controllers.PostController",
+    "Method": "GetNewComments",
+    "RelativePath": "api/Post/my_new_comments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendCode.Controllers.PostController",
+    "Method": "GetNewSubcomments",
+    "RelativePath": "api/Post/my_new_subcomments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendCode.Controllers.PostController",
+    "Method": "GetReadComments",
+    "RelativePath": "api/Post/my_read_comments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendCode.Controllers.PostController",
+    "Method": "GetReadSubcomments",
+    "RelativePath": "api/Post/my_read_subcomments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendCode.Controllers.PostController",
+    "Method": "ReportComment",
+    "RelativePath": "api/Post/report_comment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reportModel",
+        "Type": "BackendCode.DTOs.CommentModel.ReportCommentModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendCode.Controllers.PostController",
+    "Method": "ReportPost",
+    "RelativePath": "api/Post/report_post",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reportModel",
+        "Type": "BackendCode.DTOs.PostModel.ReportPostModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendCode.Controllers.PostController",
+    "Method": "SearchPostsByName",
+    "RelativePath": "api/Post/search_posts",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BackendCode.DTOs.PostModel.SearchPostsDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendCode.Controllers.PostController",
+    "Method": "SearchBuyers",
+    "RelativePath": "api/Post/search_users/{keyWord}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "keyWord",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendCode.Controllers.PostController",
+    "Method": "UnlikePost",
+    "RelativePath": "api/Post/unlike_post",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "unlike",
+        "Type": "BackendCode.DTOs.PostModel.LikePostModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendCode.Controllers.ShoppingController",
+    "Method": "CheckOrderRemarkAsync",
+    "RelativePath": "api/Shopping/CheckOrderRemark",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendCode.Controllers.ShoppingController",
+    "Method": "GetBuyerCreditsAsync",
+    "RelativePath": "api/Shopping/GetBuyerCredits",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "buyerId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendCode.Controllers.ShoppingController",
+    "Method": "GetProductDetailsAsync",
+    "RelativePath": "api/Shopping/GetProductDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "productId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendCode.Controllers.ShoppingController",
+    "Method": "GetStoreNameAndScoreAsync",
+    "RelativePath": "api/Shopping/GetStoreInfo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "storeId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendCode.Controllers.ShoppingController",
+    "Method": "SetAccountInfoAsync",
+    "RelativePath": "api/Shopping/GetStoreInfo2",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "storeID",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendCode.Controllers.ShoppingController",
+    "Method": "GetStoreRemarksAsync",
+    "RelativePath": "api/Shopping/GetStoreRemarks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "storeId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendCode.Controllers.ShoppingController",
+    "Method": "GetStoreTagsAsync",
+    "RelativePath": "api/Shopping/GetStoreTags",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "storeId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendCode.Controllers.ShoppingController",
+    "Method": "IsOrderExistAsync",
+    "RelativePath": "api/Shopping/IsOrderExist",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendCode.Controllers.ShoppingController",
+    "Method": "OrderRemarkAsync",
+    "RelativePath": "api/Shopping/OrderRemark",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "remark",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "score",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendCode.Controllers.ShoppingController",
+    "Method": "SetAuthenticationAsync",
+    "RelativePath": "api/Shopping/SetAuthentication",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "storeID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "image",
+        "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "description",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendCode.Controllers.ShoppingController",
+    "Method": "SetStoreInfoAsync",
+    "RelativePath": "api/Shopping/SetStoreInfo",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "storeID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "address",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StoreFrontController.Controllers.StoreFrontController",
+    "Method": "GetOrderStats",
+    "RelativePath": "api/StoreFront/GetOrderStats",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "storeId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "date",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StoreFrontController.Controllers.StoreFrontController",
+    "Method": "GetStoreAuthImg",
+    "RelativePath": "api/StoreFront/GetStoreAuthImg",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "storeId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StoreFrontController.Controllers.StoreFrontController",
+    "Method": "GetWeeklyOrderCount",
+    "RelativePath": "api/StoreFront/GetWeeklyOrderCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "storeId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "date",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StoreFrontController.Controllers.StoreFrontController",
+    "Method": "SubmitAuthentication",
+    "RelativePath": "api/StoreFront/SubmitAuthentication",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "storeId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Photo",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "Authentication",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StoreFrontController.Controllers.StoreFrontController",
+    "Method": "UpdateStoreAuth",
+    "RelativePath": "api/StoreFront/UpdateStoreAuth",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "storeId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StoreFrontController.Controllers.StoreFrontController",
+    "Method": "UpdateStoreScore",
+    "RelativePath": "api/StoreFront/UpdateStoreScore",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "storeId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StoreOrderController.Controllers.StoreOrderController",
+    "Method": "ConfirmReturn",
+    "RelativePath": "api/StoreOrder/ConfirmReturn",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "storeId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "orderId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StoreOrderController.Controllers.StoreOrderController",
+    "Method": "GetOrderById",
+    "RelativePath": "api/StoreOrder/GetOrderById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "storeId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "orderId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StoreOrderController.Controllers.StoreOrderController",
+    "Method": "GetOrders",
+    "RelativePath": "api/StoreOrder/GetOrders",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "storeId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "orderStatus",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StoreOrderController.Controllers.StoreOrderController",
+    "Method": "GetOrdersByDate",
+    "RelativePath": "api/StoreOrder/GetOrdersByDate",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "storeId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "date",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StoreOrderController.Controllers.StoreOrderController",
+    "Method": "UpdateDeliveryNumber",
+    "RelativePath": "api/StoreOrder/UpdateDeliveryNumber",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "storeId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "orderId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "deliveryNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StoreViewMarket.Controllers.StoreViewMarketController",
+    "Method": "GetMarketsByStoreId",
+    "RelativePath": "api/StoreViewMarket/GetMarketsByStoreId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "storeID",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[BackendCode.DTOs.Store.MarketDTO, BackendCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "StoreViewMarket.Controllers.StoreViewMarketController",
+    "Method": "SearchMarket",
+    "RelativePath": "api/StoreViewMarket/searchMarket",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "theme",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "storeID",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StoreViewMarket.Controllers.StoreViewMarketController",
+    "Method": "UpdateMarketStoreParticipation",
+    "RelativePath": "api/StoreViewMarket/UpdateMarketStoreParticipation",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BackendCode.DTOs.Store.UpdateMarketStoreDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StoreViewProductController.Controllers.StoreViewProductController",
+    "Method": "NewAddProduct",
+    "RelativePath": "api/StoreViewProduct/addNewProduct",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "storeId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductPrice",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "Tag",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SubTag",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "StoreTag",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductImages",
+        "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StoreViewProductController.Controllers.StoreViewProductController",
+    "Method": "AddProduct",
+    "RelativePath": "api/StoreViewProduct/addProduct",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "storeId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductPrice",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "Tag",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SubTag",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "StoreTag",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductImages",
+        "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "PicDes",
+        "Type": "System.Collections.Generic.List\u00601[[BackendCode.DTOs.ProductDTO.PicDes, BackendCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StoreViewProductController.Controllers.StoreViewProductController",
+    "Method": "NewAddProductDetail",
+    "RelativePath": "api/StoreViewProduct/addProductDetail",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Image",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StoreViewProductController.Controllers.StoreViewProductController",
+    "Method": "AddProductImage",
+    "RelativePath": "api/StoreViewProduct/addProductImage",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ProductId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductImages",
+        "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StoreViewProductController.Controllers.StoreViewProductController",
+    "Method": "NewDeleteProductDetail",
+    "RelativePath": "api/StoreViewProduct/deleteProductDetail/{imageId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "imageId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StoreViewProductController.Controllers.StoreViewProductController",
+    "Method": "DeleteProductImage",
+    "RelativePath": "api/StoreViewProduct/deleteProductImage/{productId}/{imageId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "imageId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StoreViewProductController.Controllers.StoreViewProductController",
+    "Method": "DeleteProducts",
+    "RelativePath": "api/StoreViewProduct/deleteProducts",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productIds",
+        "Type": "System.Collections.Generic.List\u00601[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      },
+      {
+        "Name": "storeId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StoreViewProductController.Controllers.StoreViewProductController",
+    "Method": "EditProduct",
+    "RelativePath": "api/StoreViewProduct/editProduct",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updatedProduct",
+        "Type": "BackendCode.DTOs.ProductDTO.Product2DTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StoreViewProductController.Controllers.StoreViewProductController",
+    "Method": "GetDetailImages",
+    "RelativePath": "api/StoreViewProduct/getProductDetails/{productId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StoreViewProductController.Controllers.StoreViewProductController",
+    "Method": "GetProductImages",
+    "RelativePath": "api/StoreViewProduct/getProductImages/{productId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StoreViewProductController.Controllers.StoreViewProductController",
+    "Method": "GetProductsByStoreIdAndViewType",
+    "RelativePath": "api/StoreViewProduct/GetProductsByStoreIdAndViewType",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "StoreId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ViewType",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StoreViewProductController.Controllers.StoreViewProductController",
+    "Method": "Search",
+    "RelativePath": "api/StoreViewProduct/search",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "storeId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "keyword",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StoreViewProductController.Controllers.StoreViewProductController",
+    "Method": "SearchByTag",
+    "RelativePath": "api/StoreViewProduct/searchByStoreTag",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "storeId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "storeTag",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StoreViewProductController.Controllers.StoreViewProductController",
+    "Method": "UpdateProductDescription",
+    "RelativePath": "api/StoreViewProduct/updateProductDescription",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BackendCode.DTOs.ProductDTO.UpdateDescriptionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserInfo.Controllers.UserInfoController",
+    "Method": "ShowUserInfo",
+    "RelativePath": "api/UserInfo/detailedInfo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "uid",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserInfo.Controllers.UserInfoController",
+    "Method": "GetPhotoAndDescribtion",
+    "RelativePath": "api/UserInfo/GetPhotoAndDescribtion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BackendCode.DTOs.UserInfo.GPADModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserInfo.Controllers.UserInfoController",
+    "Method": "SetPhotoAndDescribtion",
+    "RelativePath": "api/UserInfo/SetPhotoAndDescribtion",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Photo",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "Describtion",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendCode.Controllers.PostController",
+    "Method": "DeleteCommentToComment",
+    "RelativePath": "delete_comment_to_comment",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "comment_delete_info",
+        "Type": "BackendCode.DTOs.CommentModel.CommentDeleteModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendCode.Controllers.PostController",
+    "Method": "DeleteCommentToPost",
+    "RelativePath": "delete_comment_to_post",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "comment_delete_info",
+        "Type": "BackendCode.DTOs.CommentModel.CommentDeleteModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
