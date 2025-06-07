@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "eAXKXOndKeo=",
+  "dgSpecHash": "OpOnSUrEXMI=",
   "success": true,
-  "projectFilePath": "E:\\桌面\\软测\\Database_Project\\BackendCode\\BackendCode\\BackendCode.csproj",
+  "projectFilePath": "E:\\桌面\\软测\\gittest\\database\\BackendCode\\BackendCode\\BackendCode.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\alipay.aopsdk.aspnetcore\\2.4.0\\alipay.aopsdk.aspnetcore.2.4.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\alipay.aopsdk.core\\2.4.0\\alipay.aopsdk.core.2.4.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\coverlet.collector\\6.0.4\\coverlet.collector.6.0.4.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.authentication.cookies\\2.2.0\\microsoft.aspnetcore.authentication.cookies.2.2.0.nupkg.sha512",
