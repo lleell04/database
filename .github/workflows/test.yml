@@ -26,7 +26,7 @@ jobs:
       run: dotnet build --no-restore --configuration Release
 
     - name: Run tests and collect coverage
-      run: dotnet test MyProject.Tests/MyProject.Tests.csproj --configuration Release --collect:"XPlat Code Coverage"
+      run: dotnet test BackendCode.Tests/BackendCode.Tests.csproj --configuration Release --collect:"XPlat Code Coverage"
 
     - name: Generate lcov report
       uses: danielpalme/ReportGenerator-GitHub-Action@5.1.24
